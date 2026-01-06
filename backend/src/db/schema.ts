@@ -96,7 +96,7 @@ export type NewComment = typeof comments.$inferInsert;
 
 // À quoi ça sert ?
 
-// User → données lues depuis la DB
-// NewUser → données pour une insertion
+// User → données lues depuis la DB → ce que la base retourne
+// NewUser → données pour une insertion → ce que tu envoies à la base
 
 // Même logique pour Product et Comment

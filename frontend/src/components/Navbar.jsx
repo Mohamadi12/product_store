@@ -29,7 +29,7 @@ const Navbar = () => {
             <>
               <Link to="/create" className="btn btn-primary btn-sm gap-1">
                 <PlusIcon className="size-4" />
-                <span className="hidden sm:inline">New Product</span>
+                <span className="hidden sm:inline">Nouveau produit</span>
               </Link>
               <Link to="/profile" className="btn btn-ghost btn-sm gap-1">
                 <UserIcon className="size-4" />
@@ -40,10 +40,10 @@ const Navbar = () => {
           ) : (
             <>
               <SignInButton mode="modal">
-                <button className="btn btn-ghost btn-sm">Sign In</button>
+                <button className="btn btn-ghost btn-sm">Se connecter</button>
               </SignInButton>
               <SignUpButton mode="modal">
-                <button className="btn btn-primary btn-sm">Get Started</button>
+                <button className="btn btn-primary btn-sm">Commencer</button>
               </SignUpButton>
             </>
           )}

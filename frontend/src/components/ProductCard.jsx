@@ -21,7 +21,7 @@ const ProductCard = ({ product }) => {
       <div className="card-body p-4">
         <h2 className="card-title text-base">
           {product.title}
-          {isNew && <span className="badge badge-secondary badge-sm">NEW</span>}
+          {isNew && <span className="badge badge-secondary badge-sm">Nouveau</span>}
         </h2>
         <p className="text-sm text-base-content/70 line-clamp-2">
           {product.description}
